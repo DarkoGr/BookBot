@@ -20,7 +20,6 @@ def get_book_text(file_path):
 def main():
     tekst = get_book_text("/home/grubic/BookBot/bookbot/books/frankenstein.txt")
     words_num = words_count(tekst)
-    print(f"{words_num} words found in the document")
     char_count_report = char_count(tekst)
     final_report = report(char_count_report)
     print("============ BOOKBOT ============")
