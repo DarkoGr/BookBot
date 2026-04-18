@@ -22,3 +22,7 @@ Simple Python project for analyzing book text and extracting basic statistics.
 
 ```bash
 python main.py
+```
+## Notes
+
+This project was built to practice Python fundamentals, working with text files, and basic data processing.
